@@ -6,16 +6,16 @@ A Python web scraping project that collects job listing information from a publi
 
 This project extracts job listing information from the [Fake Python Jobs](https://realpython.github.io/fake-jobs/) website and organizes it into a structured dataset.
 
-The purpose of this project is to practice web scraping, HTML parsing, data extraction, data cleaning, and CSV export using Python.
+The purpose of this project is to practice web scraping, HTML parsing, data extraction, data quality checks, and CSV export using Python.
 
 **Note:** The website contains fictional job listings created for web scraping practice. This dataset does not represent real job vacancies.
 
 ## Technologies Used
 
-- Python
-- Requests – Fetch webpage HTML.
-- BeautifulSoup – Parse HTML and extract information.
-- Pandas – Organize and export the extracted data.
+- **Python** – Main programming language.
+- **Requests** – Fetches webpage HTML.
+- **BeautifulSoup** – Parses HTML and extracts information.
+- **Pandas** – Organizes and exports the extracted data.
 
 ## Data Collected
 
@@ -45,31 +45,25 @@ All listings on the demo page have the posting date `2021-04-08`.
 
 ## How to Run
 
-### 1. Clone the repository
+### 1. Clone or download the repository
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/Quratulain-qurat97/CodeAlpha_Web-Scraping.git
 ```
 
-### 2. Navigate to the project folder
-
-```bash
-cd YOUR_REPOSITORY_FOLDER
-```
-
-### 3. Install the required libraries
+### 2. Install the required libraries
 
 ```bash
 python -m pip install requests beautifulsoup4 pandas
 ```
 
-### 4. Run the scraper
+### 3. Run the scraper
 
 ```bash
 python scraper.py
 ```
 
-The script will extract the job listings, perform basic data quality checks, display a dataset summary, and export the results to `jobs.csv`.
+The script will extract job listings, perform basic data quality checks, display a dataset summary, and export the results to `jobs.csv`.
 
 ## Project Files
 
@@ -93,4 +87,4 @@ Through this project, I practiced:
 
 **Project:** CodeAlpha Internship – Task 1: Web Scraping
 
-**Author:** [Your GitHub Profile](https://github.com/Quratulain-qurat97)
+**Author:** [GitHub Profile](https://github.com/Quratulain-qurat97)
