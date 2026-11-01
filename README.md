@@ -87,4 +87,4 @@ Through this project, I practiced:
 
 **Project:** CodeAlpha Internship – Task 1: Web Scraping
 
-**Author: Qurat Ul Ain Tariq** [GitHub Profile](https://github.com/Quratulain-qurat97)
+**Author:** Qurat Ul Ain Tariq ([GitHub Profile](https://github.com/Quratulain-qurat97))
